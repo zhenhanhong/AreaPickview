@@ -67,8 +67,8 @@
 		D369CEFD1C96FD3C00474A37 /* Township.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Township.m; sourceTree = "<group>"; };
 		D369CF031C96FDAC00474A37 /* AreaPickview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AreaPickview.h; sourceTree = "<group>"; };
 		D369CF041C96FDAC00474A37 /* AreaPickview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AreaPickview.m; sourceTree = "<group>"; };
-		D369CF061C96FE0500474A37 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		D369CF071C970D9C00474A37 /* area.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = area.txt; sourceTree = "<group>"; };
+		D3E0E4F71DCC7CB800689064 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,7 +124,7 @@
 				D369CEC61C96FAC400474A37 /* AppDelegate.m */,
 				D369CEC81C96FAC400474A37 /* ViewController.h */,
 				D369CEC91C96FAC400474A37 /* ViewController.m */,
-				D369CF061C96FE0500474A37 /* PrefixHeader.pch */,
+				D3E0E4F71DCC7CB800689064 /* Header.h */,
 				D369CECB1C96FAC400474A37 /* Main.storyboard */,
 				D369CECE1C96FAC400474A37 /* Assets.xcassets */,
 				D369CED01C96FAC400474A37 /* LaunchScreen.storyboard */,
@@ -465,7 +465,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				GCC_PREFIX_HEADER = /Users/wangzhen/Desktop/pickview/pickview/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = pickview/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vedio.pickview;
@@ -477,7 +477,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				GCC_PREFIX_HEADER = /Users/wangzhen/Desktop/pickview/pickview/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = pickview/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vedio.pickview;
@@ -552,6 +552,7 @@
 				D369CEEE1C96FAC400474A37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D369CEEF1C96FAC400474A37 /* Build configuration list for PBXNativeTarget "pickviewTests" */ = {
 			isa = XCConfigurationList;
@@ -560,6 +561,7 @@
 				D369CEF11C96FAC400474A37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D369CEF21C96FAC400474A37 /* Build configuration list for PBXNativeTarget "pickviewUITests" */ = {
 			isa = XCConfigurationList;
@@ -568,6 +570,7 @@
 				D369CEF41C96FAC400474A37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

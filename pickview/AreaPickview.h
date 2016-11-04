@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Header.h"
 typedef void(^BLOCK)(NSString *province, NSString *city, NSString *district, NSString *town);
 
 
